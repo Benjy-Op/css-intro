@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS intro</title>
+    <!--external css-->
+    <link rel="stylesheet" href="./intro.css">
+    <!--internal css-->
+    <style>
+        body{
+            background-color: lightcyan;
+        }
+        h1,h2{
+            color: lightslategray;
+            font-size: 35px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cascading Style sheets</h1>
+    <p>Selector</p>
+    <p>Property</p>
+    <p>Value</p>
+    <h2>wHERE wE wrItE ouR STyleS</h2>
+    <p style="color: chartreuse; font-size: 30px;">Inline css styles as an attribute</p>
+    <H2>iNTeRNal CSS (usually  placed within the head element)</H2>
+    <p>Internal css on the headings </p>
+    <h2>ExtErnAl CSS</h2>
+    <P>Styles in a css file using link (all the p are styled with external css)</P>
+    <a>ANCHOR LINK</a>
+    <h3>Css SeLEctoRS</h3>
+    <ul>
+        <li>
+            <h3 class="selector">Simple Selectors</h3>
+            <ul style="list-style-type: square;">
+                <li>Elment/Tag name selector</li>
+                <li class="simple-selector">Class selector</li>
+                <li>Id selector</li>
+                <li class="sub-title">Universal selector</li>
+                <li>Grouping selector</li>
+            </ul>
+        </li>
+        <li>
+            <h3 class="selector sub-title">Combinator Selector</h3>
+            <ul>
+                <li>Descendant selector</li>
+                <li>Child selector</li>
+                <li>adjasent selector</li>
+                <li>General sibling selector</li>
+            </ul>
+           
+
+        </li>
+        <li>
+            <h3 class="selector sub-title">Pseudo-class Selectors</h3>
+        </li>
+        <li>
+            <h3 class="selector" id="attribute-selector">
+                Pseudo element selectors
+            </h3>
+        </li>
+        <li>
+            <h3 class="selector">Attribute selectors</h3>
+        </li>
+    </ul>
+</body>
+</html>

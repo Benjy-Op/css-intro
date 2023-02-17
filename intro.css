@@ -1,0 +1,29 @@
+/*p{
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.simple-selector{
+    font-weight: bold;
+}
+.selector{
+    color: brown;
+}
+.sub-title{
+    background-color: greenyellow;
+}
+a{
+    background-color: rosybrown;
+}
+#attribute-selector{
+    color: orchid;
+}
+*{
+    color: grey;
+}*/
+ul>h3{
+    color: yellow;
+}
+/* cascading inheritance specifity typography */
